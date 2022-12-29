@@ -10,10 +10,18 @@ namespace ManagAcc
 	{
 		public static void Main()
 		{
-			string username = " ";
-			Console.WriteLine("Enter username: ");
-			username = Console.ReadLine();
-			BankAccount newAccount = new BankAccount(username, 200);
+			string username1 = "fahd";
+			
+			username1 = Console.ReadLine();
+			string username2 = "faizan";
+            username2=Console.ReadLine();
+			string username3 = "fila";
+            username3 = Console.ReadLine();
+		
+			BankAccount newAccount = new BankAccount(username1, 2000);
+			BankAccount newAccount = new BankAccount(username2, 3000);
+			BankAccount newAccount = new BankAccount(username3, 4000);
+
 		}
 	}
 
