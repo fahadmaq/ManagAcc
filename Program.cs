@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ManagAcc
+/*namespace ManagAcc
 {
 	public class Bank
 	{
@@ -106,4 +106,4 @@ namespace ManagAcc
 
 	}
  
-}
+}*/

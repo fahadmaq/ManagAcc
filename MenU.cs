@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ManagAcc
+/*namespace ManagAcc
 {
 	class MenU
 	{
-		public class BankAccount : Bank
+		public class BankA : Bank
 		{
 			List<double> DepositList = new List<double>();
 			//object[] DepositArr = new object[6];
@@ -16,7 +16,7 @@ namespace ManagAcc
 
 			public double Balance { get; set; }
 
-			public BankAccount(string username, double Balance)
+			public Bank(string username, double Balance)
 			{
 				this.username = username;
 				this.Balance = Balance;
@@ -24,6 +24,9 @@ namespace ManagAcc
 				Console.WriteLine("Username: {0} , Balance: {1}", username, Balance);
 				NextMenu();
 			}
+
+public clas Program{
+
 			public void NextMenu()
 			{
 				double balance = Balance;
@@ -96,3 +99,4 @@ namespace ManagAcc
 		}
 	}
 }
+}*/
