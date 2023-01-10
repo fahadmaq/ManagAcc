@@ -20,7 +20,7 @@ using System.Threading.Tasks;
 		
 			BankAccount newAccount = new BankAccount(username1, 2000);
 			BankAccount newAccount = new BankAccount(username2, 3000);
-			BankAccount newAccount = new BankAccount(username3, 4000);
+			//BankAccount newAccount = new BankAccount(username3, 4000);
 
 		}
 	}

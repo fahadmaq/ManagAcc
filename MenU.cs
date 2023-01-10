@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 {
 	class MenU
 	{
-		public class BankA : Bank
+		public class BankA : MenU
 		{
 			List<double> DepositList = new List<double>();
 			//object[] DepositArr = new object[6];
@@ -16,16 +16,20 @@ using System.Threading.Tasks;
 
 			public double Balance { get; set; }
 
-			public Bank(string username, double Balance)
+			public 
+
+			public BankA(string username, double Balance)
 			{
 				this.username = username;
 				this.Balance = Balance;
 
 				Console.WriteLine("Username: {0} , Balance: {1}", username, Balance);
-				NextMenu();
+				//NextMenu();
 			}
-
-public clas Program{
+		}
+	}
+}
+public class Program{
 
 			public void NextMenu()
 			{
@@ -99,4 +103,5 @@ public clas Program{
 		}
 	}
 }
-}*/
+}
+*/

@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ManagAcc.pract.Program</StartupObject>
+    <StartupObject>ManagAcc.Bank</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,7 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Accounts.cs" />
+    <Compile Include="CodingController.cs" />
+    <Compile Include="EnuPgm.cs" />
+    <Compile Include="First.cs" />
     <Compile Include="MenU.cs" />
+    <Compile Include="Pgram.cs" />
     <Compile Include="pract\Program.cs" />
     <Compile Include="pract\Studen.cs" />
     <Compile Include="Program.cs" />
