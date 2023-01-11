@@ -14,11 +14,11 @@ namespace ManagAcc
             int op = 6;
             int userid;
             show.Load();
+            EnuPgm bank = new EnuPgm();
             UserCRUD userCRUD = new UserCRUD();
             do
             {
-                Console.WriteLine("Login...");
-
+                Console.WriteLine("Login");
                 User user = new User();
                 Console.WriteLine("Enter UserName");
                 user.UserName = Console.ReadLine();

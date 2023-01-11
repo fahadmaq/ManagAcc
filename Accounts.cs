@@ -17,18 +17,18 @@ namespace ManagAcc
             set { user_acno = value; }
         }
 
-        private string Admin;
+        /*private string Admin;
         public string username
         {
             get { return Admin; }
             set { username = Admin; }
-        }
+        }*/
         public double Balance { get; set; }
 
         protected string name;
         internal int depoit;
         protected internal char type;
-        private int balance;
+        //private int balance;
 
         private void create_account()
         {
